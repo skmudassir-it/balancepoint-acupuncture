@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2d8a6e"/>
+      <stop offset="100%" style="stop-color:#5ebf9a"/>
+    </linearGradient>
+  </defs>
+  <!-- Stylized needle/acupuncture point -->
+  <circle cx="48" cy="60" r="18" fill="none" stroke="url(#g)" stroke-width="3"/>
+  <circle cx="48" cy="60" r="6" fill="url(#g)"/>
+  <line x1="48" y1="30" x2="48" y2="18" stroke="#2d8a6e" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="48" cy="14" r="3" fill="#ca8a04"/>
+  <!-- Balance point dot -->
+  <circle cx="48" cy="88" r="2.5" fill="#ca8a04" opacity="0.6"/>
+  <circle cx="48" cy="100" r="2" fill="#ca8a04" opacity="0.4"/>
+  <!-- Text -->
+  <text x="82" y="48" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#1a3c34">BalancePoint</text>
+  <text x="82" y="76" font-family="Georgia, serif" font-size="15" fill="#5a7a6e" letter-spacing="3">ACUPUNCTURE</text>
+  <line x1="82" y1="84" x2="260" y2="84" stroke="url(#g)" stroke-width="1.5" opacity="0.5"/>
+</svg>
